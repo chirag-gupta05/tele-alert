@@ -1,0 +1,7 @@
+# Ignore system files
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignore IDE settings
+.vscode/
