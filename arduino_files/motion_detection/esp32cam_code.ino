@@ -4,7 +4,7 @@
 #include <AsyncTCP.h>
 
 #include "camera_pins.h"
-#include "secrets.h"  // contains the WIFI credentials
+#include "credentials.h"  // contains the WIFI credentials
 
 #define CAMERA_MODEL_AI_THINKER // Has PSRAM
 
