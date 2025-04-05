@@ -3,7 +3,11 @@ import datetime as dt
 import os
 import time
 import shutil
-stream_url = "http://192.168.0.103/stream"
+from dotenv import load_dotenv
+
+# Load environment variables from.env file
+load_dotenv()
+stream_url = os.getenv("stream_id")
 
 # Define the folder path where recordings will be saved
 folder_path = "C:/Recordings_test"
